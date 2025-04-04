@@ -10,9 +10,24 @@ const router = createRouter({
       component: HomeView,
     },
     {
-      path: '/counter',
-      name: 'counter',
-      component: () => import('../views/CounterView.vue'),
+      path: '/category',
+      name: 'category',
+      component: () => import('../views/CategoryView.vue'),
+    },
+    {
+      path: '/category-filter',
+      name: 'categoryFilter',
+      component: () => import('../views/CategoryFilterView.vue'),
+    },
+    {
+      path: '/cart',
+      name: 'cart',
+      component: () => import('../views/CartView.vue'),
+    },
+    {
+      path: '/product',
+      name: 'product',
+      component: () => import('../views/ProductView.vue'),
     },
   ],
 })

@@ -1,10 +1,10 @@
 <script setup>
 const menuItems = [
-  { name: 'Accueil', href: '#' },
-  { name: 'Nouveautés', href: '#' },
-  { name: 'Homme', href: '#' },
-  { name: 'Femme', href: '#' },
-  { name: 'Contact', href: '#' },
+  { name: 'Accueil', href: '/' },
+  { name: 'Filtres', href: '/category-filter' },
+  { name: 'Homme', href: '/category' },
+  { name: 'Produit', href: '/product' },
+  { name: 'Panier', href: '/cart' },
 ]
 </script>
 
